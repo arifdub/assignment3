@@ -7,8 +7,52 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id='header'>
+    
+  </div>
+  <div id='menu'>
+    
+  </div>
+  <div id='navbar'>
+    <ul>
+      <li><a href="index.htm">Home</a></li>
+       <li><a href="pages2.htm">Books</a></li>
+        <li><a href="#">Ebooks</a></li>
+         <li><a href="#">register</a></li>
+          <li><a href="#">contact</a></li>
+           <li><a href="#">login</a></li>
+    </ul>
+  </div>
+  
+  <div id='containter'>
+    <div id='content'>
+      <%= yield %>
+    </div>
+    <div id = 'first-column'>
+      <div class='searchbox'>
+        <h2 class  = 'boxheaders'></h2>
+        <input type = 'text' name ='search' /><input type= 'submit' value = 'search' />
+      </div>
+      <div class ='box'>
+        <h2 class ='boxheader'>speacial offers</h2>
+        <img src='assets/Books/pict1.jpg' name='rotating' id='rotaing1' alt='speacial_offers'>
+        <script type='text/javascript'>
+          RotateImages(1.0);
+        </script>
+      </div>
+      <div class='box'>
+        <h2 class='boxheader'>Newly Published</h2>
+        <img src='/assets/Books/pict1.jpg' alt='new_books'>
+      </div>
+      
+    </div>
+    
+    
+  </div>
+  <div id='footer'>
+    <h6 class='footertext'>&copy: ONline stores nci & trade; 2016</h6>
+  </div>
 
-<%= yield %>
 
 </body>
 </html>

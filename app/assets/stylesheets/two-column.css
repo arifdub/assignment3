@@ -1,6 +1,6 @@
 body {
     /* background: white;
-    background-image: url("bg5.gif");*/
+    background-image: url("assets/images/site/bg5.gif");*/
     background: rgb(0, 0, 0);
     font-family: sans-serif;
     margin: 0;
@@ -10,17 +10,17 @@ h1, h6 {
     margin: 0;
     font-weight: normal;
 }
-div#container {
+#container {
     position: relative;
     min-height: 400px;
     border: 1px solid gray;
     /*background: lightgrey;*/
-    background-image: url("../Images/Site/bg3.gif");
+    background-image: url("assets/Images/Site/bg2.gif");
     max-width: 1000px;
     min-width: 750px;
     margin: auto;
 }
-div#first-column {
+#first-column {
 	margin: 3px 3px 3px 3px;
     position: absolute;
     top: 0;
@@ -29,24 +29,24 @@ div#first-column {
     /*background: rgb(240, 240, 240);*/
     background-image: url("../Images/Site/bg3.gif");
     width: 279px;
-    margin: 3px;
+    
 }
-div#first-column {
+#first-column {
     left: 710px;
 }
-div#content {
+#content {
 	left: 0;
     margin: 3px 3px 3px 5px;
-    padding: 10px;
+    
     /*background: rgb(240, 240, 240);*/
-    background-image: url("../Images/Site/bg3.gif");
-    border: 1px solid gray;
+    background-image: url("../Images/Site/bg4.gif");
+    
     min-height: 392px;
     width: 680px;
 }
-div#header,
-div#footer,
-div#menu {
+#header,
+#footer,
+#menu {
     background: rgb(20, 20, 20);
     padding: 3px;
     border: 1px solid gray;
@@ -54,22 +54,22 @@ div#menu {
     min-width: 744px;
     margin: auto;
 }
-div#menu {
+#menu {
     border-bottom: none;
     width: 1024px;
     height: 28px;
 }
-div#header {
+#header {
     border-bottom: none;
     background-image: url("../Images/Site/BookHeader.jpg");
     width: 1024px;
     height: 100px;
 }
-div#footer {
+#footer {
     border-top: none;
 }
 
-div.box {
+.box {
 	border: 1px solid gray;
 	margin: 0px 0px 30px 5px;
 	padding: 5px;
